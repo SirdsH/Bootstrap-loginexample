@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../node_modules/@fortawesome/fontawesome-free/css/all.css">
+    <script src="validate.js"></script>
+</head>
+<body>
+<div id="error"></div>
+<div class="d-flex justify-content-center">
+    <div class="vh-100 flex-grow-1 image d-none d-sm-block">
+    </div>
+    <form id="form" novalidate>
+        <div class="main d-flex flex-column my-5 mx-5">
+            <i class="icon fab fa-accusoft d-flex justify-content-center mt-5"></i>
+            <h3 class="d-flex justify-content-center mt-2">Sign In</h3>
+            <div class="form-group mt-3">
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                       placeholder="Enter email">
+                <p id="emailval"></p>
+
+            </div>
+            <div class="form-group mt-3">
+                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password"
+                       required>
+                <p id="passval"></p>
+                <div class="invalid-feedback">
+                    Hello there
+                </div>
+                <a class="forgot d-flex justify-content-end mt-1" href="#">Forgot password?</a>
+            </div>
+            <button id="btn" type="submit" class="btn btn-primary mt-4">Sign in</button>
+            <a class="signup d-flex justify-content-center mt-3" href="#">Don't have an account? Sign Up!</a>
+        </div>
+    </form>
+</div>
+</body>
+</html>

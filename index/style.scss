@@ -1,0 +1,35 @@
+$btn-border-radius: 12px;
+$input-border-radius: 12px;
+$link-decoration: none;
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+.image {
+  background-image: url("picture.jpg");
+  background-size: cover;
+}
+
+.icon {
+  font-size: 2em;
+}
+
+.forgot {
+  font-size: 0.85em;
+}
+
+.signup {
+  font-size: 0.9em;
+}
+
+.main {
+  width: 45vh;
+}
+
+.green {
+  font-size: 15px;
+  color: green;
+}
+
+.red {
+  font-size: 15px;
+  color: red;
+}
