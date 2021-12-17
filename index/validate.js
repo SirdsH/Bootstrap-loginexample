@@ -22,7 +22,7 @@ window.onload = () => {
             }
         }
 
-        if (password.value.length >= 1 && password.value.length <= 8 && containsNum && password.value.toLowerCase() !== password.value) {
+        if (password.value.length >= 8 && containsNum && password.value.toLowerCase() !== password.value) {
             p2.className = "green";
             p2.innerText = "Everything seems fine"
         } else {
